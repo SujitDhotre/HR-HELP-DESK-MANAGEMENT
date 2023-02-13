@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Schedule New Interview</title>
+<link rel="stylesheet" type="text/css" href="css/inter.css">
+
+</head>
+<body>
+	<marquee direction="left" class="wel"> Schedule New Interview</marquee>
+
+	<div class="main">
+<form action="interController" method="post">
+	<label for="">Enter Name</label> <br>
+<input type="text" name="name" placeholder="Enter the name" class="in"><br><br>
+<label for="">Enter Education</label> <br>
+<input type="text" name="edu" placeholder="Enter the Education" class="in"><br><br>
+<label for="">Enter Email</label> <br>
+<input type="email" name="email" placeholder="Enter the email" class="in"><br><br>
+<label for="">Select Mode Of Interview</label> <br>
+<select name="mode" class="in">
+		<option>ON Line</option>
+		<option>Off Line</option>
+
+</select> <br><br>
+<label for="">Select Date</label> <br>
+<input type="date" name="date" placeholder="Enter the date and time" class="in"><br><br>
+
+
+<input type="submit" value="Add" class="btn">
+
+
+
+
+
+
+ </form>
+</div>
+
+</body>
+</html>

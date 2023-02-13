@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>New Enquiry</title>
+<link rel="stylesheet" type="text/css" href="css/enq.css">
+
+</head>
+<body>
+    <marquee direction="left" class="wel"> Add New Enquiry </marquee>
+
+    <div class="main">
+<form action="EnqController" method="post">
+
+        <label for="name">Enter Name</label> <br>
+        <input type="text" name="name" id="name" class="in" placeholder="Enter Name"> <br><br>
+        <label for="email">Enter Email</label> <br>
+        <input type="text" name="email" id="email" class="in" placeholder="Enter Email "><br><br>
+        <label for="desc">Enter Discription</label> <br>
+        <textarea type="textarea" name="desc" id="desc" class="in" placeholder="Enter Discreption"> </textarea><br><br>
+        <label for="date">Enter Date</label> <br>
+        <input type="date" name="date" id="" class="in"><br><br>
+
+        <input type="submit" value="Add" class="btn">
+    </form>
+
+</div>
+
+</body>
+</html>
